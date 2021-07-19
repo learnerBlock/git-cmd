@@ -5,6 +5,28 @@
   2.1 先创建文件 vim a.txt
   2.2 把新增文件添加到git  git add a.txt
   2.3 提交新增文件 git commit -m "评论"
+
+3 查看仓库状态
+  git status
+  
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   read.txt
+#
+
+4 查看具体修改
+  git diff a.txt
+  
+5 保存修改内容
+   git add a.txt
+   git commit -m "评论"
+   
+6 撤销修改
+  git checkout a.txt
+ 
   
   
   
