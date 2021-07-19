@@ -1,0 +1,10 @@
+1 初始化仓库
+  git init  将当前文件初始化为git repository 初始化成功后 当前文件将产生.git文件 ls -a 可以查询到.git文件
+  
+2 新增文件
+  2.1 先创建文件 vim a.txt
+  2.2 把新增文件添加到git  git add a.txt
+  2.3 提交新增文件 git commit -m "评论"
+  
+  
+  
