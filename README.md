@@ -1,8 +1,10 @@
 # git-cmd
 git入门操作
+
 1 linux 安装git
   命令行安装：yum install -y git
   源码安装：下载源码 解压文件
+
 2 移除git:
   如果需要移除git, 命令：yum remove git
   
